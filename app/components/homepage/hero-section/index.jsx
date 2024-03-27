@@ -124,7 +124,7 @@ function HeroSection() {
                 <span className="text-amber-300">HuggingFace</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">LangChain</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">{`]'`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2 my-1">
                 <span className=" text-white">softSkills:</span>
@@ -144,7 +144,7 @@ function HeroSection() {
                 <span className="text-amber-300">Leadership</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Resilient</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">{`]'`}</span>
               </div>
               <div className="my-1">
                 <span className="ml-4 lg:ml-8 mr-2 text-white line-through">

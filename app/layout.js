@@ -8,7 +8,7 @@ import './css/globals.scss';
 
 export const metadata = {
   title: 'Chris Alonzo',
-  description: "Welcome to Chris Alonzo's portfolio! I'm a self-taught full-stack developer with a passion for continuous learning and collaboration. I thrive on new challenges and am adept at quickly grasping new concepts. Let's connect and create something amazing together!",
+  description: "Welcome to Chris Alonzo's portfolio! I'm a self-taught full-stack developer with a passion for continuous learning because of my curiosity. I thrive on new challenges and am adept at quickly grasping new concepts. Let's connect and create something amazing together!",
   icons: [ "/logo.svg" ]
 }
 

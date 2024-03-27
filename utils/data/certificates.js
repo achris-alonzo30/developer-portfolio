@@ -4,13 +4,13 @@ export const certificates = [
     name: "Google Analytics 4",
     dateCompletion: "March 21, 2024",
     description:
-      "The course taught me the basic and intermediatte level on how to collect data from your website, and then analyze and measure the data to make better decisions.",
+      "The course taught me the foundations and intermediatte level on how to collect data from your website, and then analyze and measure the data to make better decisions.",
     logo: "/svg/skills/google.svg",
     link: "https://drive.google.com/file/d/1tPNjphmymeWAyjyyL9LpgZ9eoG6pZDQ3/view?usp=sharing",
   },
   {
     id: 2,
-    name: "Google - Foundatins of User Experience (UX) Design",
+    name: "Google - Foundations of User Experience (UX) Design",
     dateCompletion: "Nov 22, 2023",
     description:
       "I learned about entry-level UX designer responsibilities, UX design concepts (user-centered, design process, accessibility, equity-focused), and the significance of design sprints in UX work.",
