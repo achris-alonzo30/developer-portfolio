@@ -1,6 +1,8 @@
 export const skillsData = [
   'HTML',
   'CSS',
+  'Python',
+  'OpenAI',
   'Javascript',
   'Typescript',
   'React',
@@ -13,17 +15,20 @@ export const skillsData = [
   'AWS',
   'Bootstrap',
   'Docker',
-  'Go',
   'Figma',
   'Firebase',
   'MaterialUI',
-  'Nginx',
-  'Strapi'
+  'ReactNative',
+  'Expo',
+  'Django',
+  'GraphQL',
+  'Numpy',
+  'Pytorch',
+  'Selenium',
+  'Tensorflow',
+  'Huggingface'
+
 ]
-
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
 
 // AVAILABLE SKILLS
 

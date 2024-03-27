@@ -1,6 +1,6 @@
 // @flow strict
 import Link from "next/link";
-
+import Image from "next/image";
 
 function Navbar() {
   return (
@@ -10,7 +10,7 @@ function Navbar() {
           <Link
             href="/"
             className=" text-[#16f2b3] text-3xl font-bold">
-            ABU SAID
+            <Image src="/logo.svg" alt="logo" width={48} height={48} />
           </Link>
         </div>
 
@@ -21,16 +21,10 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#experience"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EXPERIENCE</div></a>
-          </li>
-          <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#skills"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div></a>
           </li>
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#education"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCATION</div></a>
-          </li>
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#blogs"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">BLOGS</div></a>
           </li>
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></a>

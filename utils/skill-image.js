@@ -72,7 +72,15 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import openai from '/public/svg/skills/openai.svg';
+import langchain from '/public/svg/skills/langchain.svg';
+import expo from '/public/svg/skills/expo.svg';
+import huggingface from '/public/svg/skills/huggingface.svg';
+import convex from '/public/svg/skills/convex.svg';
+import clerk from '/public/svg/skills/clerk.svg';
+import prisma from '/public/svg/skills/prisma.svg';
+import google from '/public/svg/skills/google.svg';
+import ibm from '/public/svg/skills/ibm.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -225,6 +233,26 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'openai':
+      return openai;
+    case 'langchain':
+      return langchain;
+    case 'reactnative':
+        return react;
+    case 'expo':
+        return expo;
+    case 'huggingface':
+        return huggingface;
+    case 'convex':
+        return convex;
+    case 'prisma':
+        return prisma;
+    case 'clerk':
+        return clerk;
+    case 'google':
+        return google;
+    case 'ibm':
+        return ibm;
     default:
       break;
   }
